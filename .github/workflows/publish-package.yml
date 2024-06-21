@@ -7,7 +7,7 @@ on:
 
 jobs:
   publish-gpr:
-    runs-on: windows-latest # 更改为 Windows 环境  或者 ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
