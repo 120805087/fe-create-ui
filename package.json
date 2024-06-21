@@ -1,9 +1,6 @@
 {
   "name": "fe-create-ui",  
   "version": "0.1.0",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@120805087"
-  },
   "dependencies": {
     "@emotion/css": "^11.11.2",
     "@testing-library/jest-dom": "^5.17.0",
