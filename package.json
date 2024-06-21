@@ -1,5 +1,5 @@
 {
-  "name": "fe-create-ui",
+  "name": "@felicity/fe-create-ui",
   "version": "0.1.0",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/felicity"
