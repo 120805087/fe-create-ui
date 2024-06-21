@@ -7,11 +7,13 @@
 test.js
 .vscode
 
+
 # testing
 /coverage
 
 # production
 /build
+/storybook-static
 
 # misc
 .DS_Store
