@@ -16,10 +16,7 @@ type StylesCreator<T extends Styles> = (params: StylesCreatorParams) => T;
 const createStyles = <T extends Styles>(stylesCreator: StylesCreator<T>) => {
   const useStyles = () => {
     // 生成样式对象
-    const stylesObject = useMemo(
-      () => stylesCreator({ token }),
-      [stylesCreator]
-    );
+    const stylesObject = stylesCreator({ token });
 
     // 使用 keyof 和 typeof 获取 stylesObject 的键类型
     type StylesKeys = keyof typeof stylesObject;
