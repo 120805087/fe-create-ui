@@ -1,6 +1,6 @@
 {
   "name": "fe-create-ui",  
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
     "@emotion/css": "^11.11.2",
     "@testing-library/jest-dom": "^5.17.0",
