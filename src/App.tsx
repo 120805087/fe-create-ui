@@ -1,10 +1,11 @@
 import React from "react";
-import Calendar from "./Calendar";
+import { Calendar, Button } from "./components";
 
 function App() {
   return (
     <div className="App">
       <Calendar />
+      <Button label="Button" />
     </div>
   );
 }
